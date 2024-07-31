@@ -20,16 +20,25 @@ function wallpaper_background() {
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
   
+noStroke()
 
-rect(300,0,300,200)
+fill(57,255,20)
+rect(0,200,290,200)
 
-rect(140,14,200,120)
+fill(225,95,31)
+rect(0,140,200,150)
 
-rect(200,100,200,100)
 
-rect(140,140,200,20)
+fill(225,240,31)
+rect(100,140,200,125)
 
-rect(5,5,200,20)
+
+fill(4,217,225)
+rect(200,150,250,100)
+
+
+fill(148,87,235)
+rect(100,10,200,100)
 
 
 
@@ -39,7 +48,9 @@ let PupilSizeY = 60
 let EyeSizeX = 150
 let EyeSizeY = 100
  
+stroke(0
 
+)
 fill(4,99,7)
   ellipse(100, 100, 100, 200); // draws a circle 45 pixels accross at location 100 pixels accross and 100 pixels down
 

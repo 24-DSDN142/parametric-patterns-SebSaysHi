@@ -6,9 +6,9 @@ let g1 = 99
 let b1 = 7
 
 //Color of Eyeballs
-let r2 = 194
-let g2 = 197
-let b2 = 204
+let r2 = 139
+let g2 = 0
+let b2 = 0
 
 //Color of Pupils
 let r3 = 0
@@ -16,16 +16,16 @@ let g3 = 0
 let b3 = 0
 
 //Size of Pupils
-let PupilSizeX = 50
-let PupilSizeY = 50
+let PupilSizeX = 75
+let PupilSizeY = 30
 
 //Size of Eyeballs
-let EyeSizeX = 100
+let EyeSizeX = 150
 let EyeSizeY = 100
 
 //Size of Head
-let HeadsizeX = 200
-let HeadSizeY = 250
+let HeadsizeX = 150
+let HeadSizeY = 200
 
 //Mouth length
 let MouthLengthL = 75
@@ -35,7 +35,7 @@ let MouthLengthR = 125
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings

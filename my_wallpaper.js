@@ -1,11 +1,41 @@
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 50
+let PupilSizeY = 50
+
+//Size of Eyeballs
+let EyeSizeX = 100
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 200
+let HeadSizeY = 250
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(NINE_LANDSCAPE);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -19,8 +49,12 @@ function wallpaper_background() {
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-  
+ 
+ 
+  // The colorful Squares
 noStroke()
+
+
 
 fill(57,255,20)
 rect(0,200,290,200)
@@ -43,25 +77,30 @@ rect(100,10,200,100)
 
 
 
-  let PupilSizeX = 100
-let PupilSizeY = 60
-let EyeSizeX = 150
-let EyeSizeY = 100
+
+ //Head of Green man
+ if(HeadsizeX >= 200){
+ MouthLengthL = 35
+ MouthLengthR = 165
  
-stroke(0
+ }
+  
+stroke(0)
+fill(r1,g1,b1)
+  ellipse(100, 100, HeadsizeX, HeadSizeY); // draws a circle 45 pixels accross at location 100 pixels accross and 100 pixels down
 
-)
-fill(4,99,7)
-  ellipse(100, 100, 100, 200); // draws a circle 45 pixels accross at location 100 pixels accross and 100 pixels down
-
-  fill(194,197,204)
+ //The eyes and pupils of the Green man
+ 
+  fill(r2,g2,b2)
 ellipse(150, 100, EyeSizeY, EyeSizeX)
 ellipse(50, 100, EyeSizeY, EyeSizeX)
-fill(0)
+fill(r3,g3,b3)
 ellipse(170, 100, PupilSizeY, PupilSizeX)
 ellipse(30, 100, PupilSizeY, PupilSizeX)
 
 
-line(75,175,125,175)
+line(MouthLengthL,175,MouthLengthR,175)
+
+
 
 }

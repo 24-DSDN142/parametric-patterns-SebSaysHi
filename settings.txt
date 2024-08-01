@@ -8,15 +8,38 @@ Your final settings.txt will look something like this when you are finished:
 /////////////////////////////////
 
 Wallpaper 1:
-
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 100
+let PupilSizeY = 60
+
+//Size of Eyeballs
+let EyeSizeX = 150
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -24,23 +47,49 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
 }
+
 
 /////////////////////////////////
 
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 0
+let g2 = 0
+let b2 = 0
+
+//Color of Pupils
+let r3 = 194
+let g3 = 197
+let b3 = 204
+
+//Size of Pupils
+let PupilSizeX = 100
+let PupilSizeY = 60
+
+//Size of Eyeballs
+let EyeSizeX = 150
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -48,7 +97,331 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+}
+
+
+  Wallpaper 3:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 100
+let PupilSizeY = 60
+
+//Size of Eyeballs
+let EyeSizeX = 150
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 200
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
+
+function setup_wallpaper(pWallpaper) 
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+
+   Wallpaper 4:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 139
+let g2 = 0
+let b2 = 0
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 75
+let PupilSizeY = 30
+
+//Size of Eyeballs
+let EyeSizeX = 150
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
+function setup_wallpaper(pWallpaper) 
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(A3);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+
+ Wallpaper 5:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 10
+let PupilSizeY = 60
+
+//Size of Eyeballs
+let EyeSizeX = 150
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 90
+let MouthLengthR = 110
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+
+ Wallpaper 6:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 10
+let PupilSizeY = 10
+
+//Size of Eyeballs
+let EyeSizeX = 100
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+
+ Wallpaper 7:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 0
+let g1 = 0
+let b1 = 0
+
+//Color of Eyeballs
+let r2 = 0
+let g2 = 0
+let b2 = 0
+
+//Color of Pupils
+let r3 = 255
+let g3 = 255
+let b3 = 255
+
+//Size of Pupils
+let PupilSizeX = 10
+let PupilSizeY = 10
+
+//Size of Eyeballs
+let EyeSizeX = 150
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 200
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+
+Wallpaper 8:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 70
+let PupilSizeY = 45
+
+//Size of Eyeballs
+let EyeSizeX = 200
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 150
+let HeadSizeY = 250
+
+//Mouth length
+let MouthLengthL = 90
+let MouthLengthR = 110
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
+
+  Wallpaper 9:
+
+//your parameter variables go here!
+
+//Color of Green mans Head
+let r1 = 4
+let g1 = 99
+let b1 = 7
+
+//Color of Eyeballs
+let r2 = 194
+let g2 = 197
+let b2 = 204
+
+//Color of Pupils
+let r3 = 0
+let g3 = 0
+let b3 = 0
+
+//Size of Pupils
+let PupilSizeX = 50
+let PupilSizeY = 50
+
+//Size of Eyeballs
+let EyeSizeX = 100
+let EyeSizeY = 100
+
+//Size of Head
+let HeadsizeX = 200
+let HeadSizeY = 250
+
+//Mouth length
+let MouthLengthL = 75
+let MouthLengthR = 125
+
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 300;
+  pWallpaper.grid_settings.cell_height = 300;
+  pWallpaper.grid_settings.row_offset  = 30;
 }
